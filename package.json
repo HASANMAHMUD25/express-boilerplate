@@ -1,20 +1,19 @@
 {
-  "name": "sistem-presensi",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app/index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "mysql2": "^3.9.7",
-    "nodemon": "^3.1.0",
-    "sequelize": "^6.37.3"
-  }
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "axios": "^1.6.4",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^1.0.4",
+        "sass": "^1.56.1",
+        "vite": "^5.3.1"
+    },
+    "dependencies": {
+        "chart.js": "^4.4.3"
+    }
 }
